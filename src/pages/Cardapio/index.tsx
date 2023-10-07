@@ -1,5 +1,5 @@
 import styles from './Cardapio.module.scss'
-import Logo from 'assets/logo.svg'
+import Logo from '../../assests/cardapio/logo.png'
 import Buscador from './Buscador';
 import React, { useState } from 'react';
 import Filtros from './Filtros';
@@ -9,12 +9,11 @@ export default function Cardapio(){
     return (
         <main>
             <nav className={ styles.menu }>
-            <img src={Logo} alt="Logo do Restaurante"/>
-            {/*Cardapio Do Restaurante Mojo Dojo Casa House do Grande Mestre Cuca Senhor Artista Profissional Admiravel Divino Luxuoso Doutor Magíster Especializado Lindo Danado Explêndido Sensacional Charmoso Chef 5 Estrelas Respeitado Raul*/}
+            <img src={Logo} alt="Logo"/>
             </nav>
             <header className={ styles.header }>
                 <div className= { styles.header__text }>
-                  "A casa da massa gostosa e saborosa e deliciosa!"
+                  "Confeitaria especialista em fazer você feliz"
                 </div>
             </header>
             <section className={styles.cardapio}>

@@ -1,19 +1,19 @@
 [
     {
       "id": 1,
-      "label": "Massas"
+      "label": "Bolos"
     },
     {
       "id": 2,
-      "label": "Carnes"
+      "label": "Cupcakes"
     },
     {
       "id": 3,
-      "label": "Pombos"
+      "label": "Donuts"
     },
     {
       "id": 4,
-      "label": "vEGANOS"
+      "label": "Festa"
     }
   ]
   
